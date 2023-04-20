@@ -1,0 +1,28 @@
+.player{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    max-width: 1230px;
+    padding: 15px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(196, 196, 196);
+    border-radius: 3px;
+    border-bottom: 1px solid #7d7d7d;
+}
+.player button{
+    background-color: transparent;
+}
+.player img{
+    margin-left: auto;
+    width: 40px;
+    margin-right: 20px;
+}
+.range__box{
+    display: flex;
+    margin-left: auto;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}

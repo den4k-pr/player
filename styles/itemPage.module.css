@@ -1,0 +1,74 @@
+.itemPage{
+    padding-top: 100px;
+}
+.itemPage__top{
+    display: flex;
+    align-items: center;
+}
+
+.itemPage__top_img{
+    margin-right: 30px;
+}
+
+.itemPage__top_box_artist{
+    font-size: 20px;
+    color: grey;
+    line-height: 30px;
+}
+.itemPage__bottom{
+    padding-top: 30px;
+}
+.itemPage__top_box_name{
+    font-size: 22px;
+    color: #000;
+    font-weight: 700;
+    line-height: 60px;
+}
+.itemPage__top_box_listems{
+    font-size: 16px;
+    line-height: 30px;
+}
+.itemPage__Coments_title,
+.itemPage__bottom_title{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.itemPage__Coments{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.itemPage__Coments input{
+    padding: 15px;
+    border: 1px solid rgb(179, 178, 178);
+    border-radius: 3px;
+}
+.itemPage__Coments input:focus{
+    padding: 20px;
+    border: 2px solid rgb(123, 123, 123);
+}
+.itemPage__Coments textarea{
+    height: 120px;
+    padding: 15px;
+    border: 1px solid rgb(179, 178, 178);
+    border-radius: 3px;
+    resize: none;
+}
+.itemPage__Coments textarea:focus{
+    height: 130px;
+    padding: 20px;
+    border: 2px solid rgb(123, 123, 123);
+}
+.itemPage__Coments button{
+    margin: 20px 0 60px 0;
+    background-color: transparent;
+    width: 120px;
+    height: 40px;
+    text-transform: uppercase;
+    transition: .1s;
+}
+.itemPage__Coments button:hover{
+    background-color: #818181;
+}

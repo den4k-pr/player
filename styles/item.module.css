@@ -1,0 +1,91 @@
+.item{
+    display: flex;
+    align-items: center;
+    margin: 10px 0 12px 0;
+    padding: 10px 10px 10px 70px;
+    border-radius: 0 0 5px 5px;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    border-bottom: 2px solid grey;
+}
+.item:hover{
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+    border-left: 3px solid grey;
+    margin: 10px 0 11px 0;
+}
+.buton_box{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.item_wrapper{
+    position: relative;
+}
+.play p{
+    border: 10px solid transparent; border-left: 10px solid grey;
+    border-radius: 5px;
+    margin: 5px 0 5px 10px;
+}
+.play{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 100%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.play:hover{
+    background-color: #f0f0f0;
+}
+.item img{
+    width: 60px;
+    margin-right: 20px;
+}
+.stop{
+    display: flex;
+    padding: 17.1px 18.6px;
+    background-color: #fff;
+    border-radius: 100%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.item__column{
+    display: flex;
+    flex-direction: column;
+}
+.item__column h3{
+    font-size: 16px;
+    color: #272727;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.item__column p{
+    color: #626262;
+}
+.stop:hover{
+    background-color: #f0f0f0;
+}
+.delete img{
+    width: 25px;
+}
+.delete{
+    margin-left: auto;
+    cursor: pointer;
+}
+.stop::before{
+    content: "";
+    display: block;
+    width: 4px;
+    height: 15px;
+    border-radius: 5px;
+    background-color: grey;
+    margin-right: 4px;
+}
+.stop::after{
+    content: "";
+    display: block;
+    width: 4px;
+    height: 15px;
+    border-radius: 5px;
+    background-color: grey;
+}
